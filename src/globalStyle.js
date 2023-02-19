@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle `
     body{
         background-color: ${props => props.theme.body};
         color: ${props => props.theme.text};
+        font-family: Montserrat, sans-serif;
     }
 `
 
